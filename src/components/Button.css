@@ -1,0 +1,37 @@
+.profile-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.friend {
+  background-color: green;
+}
+
+.teacher {
+  background-color: blue;
+}
+
+.student {
+  background-color: purple;
+}
+
+.friend:hover {
+  background-color: darkgreen;
+}
+
+.teacher:hover {
+  background-color: darkblue;
+}
+
+.student:hover {
+  background-color: #4b0082;
+}
+
+.profile-button:focus {
+  outline: 3px solid orange;
+  outline-offset: 3px;
+}
